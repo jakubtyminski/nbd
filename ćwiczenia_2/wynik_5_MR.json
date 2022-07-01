@@ -1,0 +1,527 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.3
+{
+	"result" : "mrbalance",
+	"timeMillis" : 167,
+	"counts" : {
+		"input" : 159,
+		"emit" : 503,
+		"reduce" : 43,
+		"output" : 73
+	},
+	"ok" : 1
+}
+[
+	{
+		"_id" : "AFN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ALL",
+		"value" : {
+			"sum" : 3325.48,
+			"avg" : 3325.48
+		}
+	},
+	{
+		"_id" : "AMD",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ARS",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "BGN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "BOB",
+		"value" : {
+			"sum" : 5263.3,
+			"avg" : 5263.3
+		}
+	},
+	{
+		"_id" : "BRL",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "BWP",
+		"value" : {
+			"sum" : 4076.29,
+			"avg" : 4076.29
+		}
+	},
+	{
+		"_id" : "BYR",
+		"value" : {
+			"sum" : 5095.79,
+			"avg" : 5095.79
+		}
+	},
+	{
+		"_id" : "CAD",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "CDF",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "CLP",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "CNY",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "COP",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "CUP",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "CZK",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "DOP",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "EGP",
+		"value" : {
+			"sum" : 5579.3,
+			"avg" : 5579.3
+		}
+	},
+	{
+		"_id" : "ETB",
+		"value" : {
+			"sum" : 5436.11,
+			"avg" : 5436.11
+		}
+	},
+	{
+		"_id" : "EUR",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "GBP",
+		"value" : {
+			"sum" : 6149.19,
+			"avg" : 6149.19
+		}
+	},
+	{
+		"_id" : "GTQ",
+		"value" : {
+			"sum" : 5806.3,
+			"avg" : 5806.3
+		}
+	},
+	{
+		"_id" : "HNL",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "HRK",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "IDR",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ILS",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "IQD",
+		"value" : {
+			"sum" : 4269.39,
+			"avg" : 4269.39
+		}
+	},
+	{
+		"_id" : "IRR",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ISK",
+		"value" : {
+			"sum" : 4316.41,
+			"avg" : 4316.41
+		}
+	},
+	{
+		"_id" : "JPY",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "KRW",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "KYD",
+		"value" : {
+			"sum" : 3760.89,
+			"avg" : 3760.89
+		}
+	},
+	{
+		"_id" : "KZT",
+		"value" : {
+			"sum" : 3788.95,
+			"avg" : 3788.95
+		}
+	},
+	{
+		"_id" : "LYD",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "MAD",
+		"value" : {
+			"sum" : 3818.85,
+			"avg" : 3818.85
+		}
+	},
+	{
+		"_id" : "MGA",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "MKD",
+		"value" : {
+			"sum" : 3835.05,
+			"avg" : 3835.05
+		}
+	},
+	{
+		"_id" : "MMK",
+		"value" : {
+			"sum" : 4629.42,
+			"avg" : 4629.42
+		}
+	},
+	{
+		"_id" : "MNT",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "MWK",
+		"value" : {
+			"sum" : 3574.42,
+			"avg" : 3574.42
+		}
+	},
+	{
+		"_id" : "MXN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "MYR",
+		"value" : {
+			"sum" : 4781.12,
+			"avg" : 4781.12
+		}
+	},
+	{
+		"_id" : "NGN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "NIO",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "NOK",
+		"value" : {
+			"sum" : 4773.66,
+			"avg" : 4773.66
+		}
+	},
+	{
+		"_id" : "NPR",
+		"value" : {
+			"sum" : 5792.26,
+			"avg" : 5792.26
+		}
+	},
+	{
+		"_id" : "NZD",
+		"value" : {
+			"sum" : 5328.46,
+			"avg" : 5328.46
+		}
+	},
+	{
+		"_id" : "PEN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "PHP",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "PKR",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "PLN",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "PYG",
+		"value" : {
+			"sum" : 4874.69,
+			"avg" : 4874.69
+		}
+	},
+	{
+		"_id" : "RSD",
+		"value" : {
+			"sum" : 4276.56,
+			"avg" : 4276.56
+		}
+	},
+	{
+		"_id" : "RUB",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "RWF",
+		"value" : {
+			"sum" : 4632.88,
+			"avg" : 4632.88
+		}
+	},
+	{
+		"_id" : "SEK",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "SRD",
+		"value" : {
+			"sum" : 5286.68,
+			"avg" : 5286.68
+		}
+	},
+	{
+		"_id" : "THB",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "TJS",
+		"value" : {
+			"sum" : 4087.71,
+			"avg" : 4087.71
+		}
+	},
+	{
+		"_id" : "TZS",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "UAH",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "USD",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "UZS",
+		"value" : {
+			"sum" : 3573.03,
+			"avg" : 3573.03
+		}
+	},
+	{
+		"_id" : "VEF",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "VND",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "VUV",
+		"value" : {
+			"sum" : 6418.27,
+			"avg" : 6418.27
+		}
+	},
+	{
+		"_id" : "XAF",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "XOF",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "XPF",
+		"value" : {
+			"sum" : 4759.07,
+			"avg" : 4759.07
+		}
+	},
+	{
+		"_id" : "YER",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ZAR",
+		"value" : {
+			"sum" : NaN,
+			"avg" : NaN
+		}
+	},
+	{
+		"_id" : "ZMW",
+		"value" : {
+			"sum" : 5569.56,
+			"avg" : 5569.56
+		}
+	},
+	{
+		"_id" : "ZWL",
+		"value" : {
+			"sum" : 5792.17,
+			"avg" : 5792.17
+		}
+	}
+]

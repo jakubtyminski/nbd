@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVjZcM/8FEUpkzGNlkHRVu8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24215>; rel="up"
+Last-Modified: Tue, 21 Jun 2022 13:35:21 GMT
+ETag: "4WZfbzBzJfHmur6MlEpID9"
+Date: Tue, 21 Jun 2022 13:43:00 GMT
+Content-Type: application/json
+Content-Length: 56
+
+{'title': 'AssasinsCreed', 'price': 30.50, 'year': 2007}

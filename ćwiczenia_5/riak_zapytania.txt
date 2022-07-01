@@ -1,0 +1,23 @@
+1. curl -i -XPUT http://localhost:49153/buckets/s24215/keys/assasinscreed -H "Content-Type: application/json" -d "{'title': 'AssasinsCreed', 'price': 30.50, 'year': 2007}" > riak_wynik_1_a.txt
+curl -i -XPUT http://localhost:49153/buckets/s24215/keys/godofwar -H "Content-Type: application/json" -d "{'title': 'GodOfWar', 'price': 200.00, 'year': 2021}" > riak_wynik_1_b.txt
+curl -i -XPUT http://localhost:49153/buckets/s24215/keys/gta5 -H "Content-Type: application/json" -d "{'title': 'GrandTheftAutoV', 'price': 179.00, 'year': 2016}" > riak_wynik_1_c.txt
+curl -i -XPUT http://localhost:49153/buckets/s24215/keys/fifa22 -H "Content-Type: application/json" -d "{'title': 'Fifa22', 'price': 159.00, 'year': 2021}" > riak_wynik_1_d.txt
+curl -i -XPUT http://localhost:49153/buckets/s24215/keys/nba2k22 -H "Content-Type: application/json" -d "{'title': 'NBA2K21', 'price': 229.00, 'year': 2020}" > riak_wynik_1_e.txt
+
+2. curl -i -XGET http://localhost:49153/buckets/s24215/keys/assasinscreed > riak_wynik_2.txt
+
+3. curl -i -XPUT http://localhost:49153/buckets/s24215/keys/godofwar -H "Content-Type: application/json" -d "{'title': 'GodOfWar', 'price': 200.00, 'year': 2021, 'players_cnt': 3000000}" > riak_wynik_3.txt 
+
+4. curl -i -XPUT http://localhost:49153/buckets/s24215/keys/gta5 -H "Content-Type: application/json" -d "{'title': 'GrandTheftAutoV', 'price': 179.00}" > riak_wynik_4.txt 
+
+5. curl -i -XPUT http://localhost:49153/buckets/s24215/keys/fifa22 -H "Content-Type: application/json" -d "{'title': 'Fifa22', 'price': 200.20, 'year': 2021}" > riak_wynik_5.txt 
+
+6. curl -i -XDELETE http://localhost:49153/buckets/s24215/keys/nba2k22 > riak_wynik_6.txt
+
+7. curl -i -XGET http://localhost:49153/buckets/s24215/keys/godofwar > riak_wynik_7.txt
+
+8. curl -i -XPOST http://localhost:49153/buckets/s24215/keys -i -H "Content-Type: application/json" -d "{'title':'Horizon Zero Dawn'}" > riak_wynik_8.txt
+
+9. curl -i -XGET http://localhost:49153/buckets/s24215/keys/QEyiJwpVoh6b4sgh2gK6iPaSzrd > riak_wynik_9.txt
+
+10. curl -i -XDELETE http://localhost:49153/buckets/s24215/keys/QEyiJwpVoh6b4sgh2gK6iPaSzrd > riak_wynik_10.txt

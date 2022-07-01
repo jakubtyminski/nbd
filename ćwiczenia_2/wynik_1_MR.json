@@ -1,0 +1,30 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.3
+{
+	"result" : "MR_avg_height_weight",
+	"timeMillis" : 321,
+	"counts" : {
+		"input" : 9877,
+		"emit" : 9877,
+		"reduce" : 198,
+		"output" : 2
+	},
+	"ok" : 1
+}
+[
+	{
+		"_id" : "Female",
+		"value" : {
+			"averageWeight" : 70.11331573604069,
+			"averageHeight" : 166.81260913705597
+		}
+	},
+	{
+		"_id" : "Male",
+		"value" : {
+			"averageWeight" : 70.00976575121169,
+			"averageHeight" : 166.73469507269812
+		}
+	}
+]

@@ -1,0 +1,19 @@
+$ python riak.py
+-----------------------------------
+Riak - komunikaty
+-----------------------------------
+Wstawianie dokumentu do bazy - response:  204
+Pobranie dokumentu z bazy:
+Odpowiedz serwera:  200
+Wynik:  {'title': 'AssasinsCreed'}
+-----------------------------------
+Modyfikacja dokumentu - odpowiedz serwera:  204
+-----------------------------------
+Pobranie zmodyfikowanego dokumentu z bazy:
+Odpowiedz serwera:  200
+Wynik:  {'title': 'AssasinsCreed', 'number_of_items': 1, 'prize': 249.99}
+-----------------------------------
+Usuniecie dokumentu - odpowiedz serwera:  204
+-----------------------------------
+Proba pobrania usunietego dokumentu - odpowiedz serwera:  404
+Wynik:  not found

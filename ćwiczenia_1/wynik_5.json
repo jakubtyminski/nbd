@@ -1,0 +1,16 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.3
+2022-06-25T08:09:20.538-0700 E QUERY    [thread1] Error: error: {
+	"ok" : 0,
+	"errmsg" : "Unsupported projection option: location: { city: 1.0 }",
+	"code" : 2,
+	"codeName" : "BadValue"
+} :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DBCommandCursor@src/mongo/shell/query.js:717:1
+DBQuery.prototype._exec@src/mongo/shell/query.js:117:28
+DBQuery.prototype.hasNext@src/mongo/shell/query.js:288:5
+DBQuery.prototype.toArray@src/mongo/shell/query.js:337:12
+@zapytanie_5.js:2:5
+failed to load: zapytanie_5.js

@@ -1,0 +1,10 @@
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.3
+2022-07-01T09:05:28.667-0700 E QUERY    [thread1] SyntaxError: missing variable name @zapytanie_4_MR.js:3:0
+failed to load: zapytanie_4_MR.js
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.3
+2022-07-01T09:09:17.220-0700 E QUERY    [thread1] SyntaxError: missing variable name @zapytanie_4_MR.js:3:0
+failed to load: zapytanie_4_MR.js
